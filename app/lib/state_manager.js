@@ -6,7 +6,7 @@ App.StateManager = Em.StateManager.extend({
         if (App.weightController.updatedInLessThan24h()) {
             return 'moodState';
         } else {
-            return 'weightState';
+            return 'weightToMoodState';
         }
     }.property(),
 
